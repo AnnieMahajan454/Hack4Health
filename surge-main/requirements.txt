@@ -1,0 +1,8 @@
+streamlit
+roboflow
+Pillow
+requests
+numpy
+opencv-python
+scikit-image
+streamlit-image-coordinates
