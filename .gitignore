@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/
+**/.streamlit/
+**/.streamlit/cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs & artifacts
+logs/
+*.log
+*.tmp
+*.temp
+
+# Build outputs
+build/
+dist/
+
+# Images/videos generated at runtime
+*.mp4
+*.avi
+*.gif
+
+# Project-specific
+surge-main/temp.png
