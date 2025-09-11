@@ -24,18 +24,18 @@
 ## Quick start
 1) Python 3.11 recommended
 2) Create and activate venv
-- Windows (PowerShell):
+Windows (PowerShell):
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-- macOS/Linux (bash/zsh):
+macOS/Linux (bash/zsh):
 python3 -m venv .venv
 source .venv/bin/activate
 3) Install dependencies
-- pip install --upgrade pip
-- pip install -r requirements.txt
+pip install --upgrade pip
+pip install -r requirements.txt
 4) Run
-- streamlit run app.py
-- If port 8501 is busy, add: --server.port 8502
+streamlit run app.py
+If port 8501 is busy, add: --server.port 8502
 
 ## How to use
 - Option A: Use the example image button
