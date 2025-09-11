@@ -63,7 +63,7 @@ temp.png: transient file for processing uploads (ignored by Git)
 ## Configuration
 - Roboflow API: set API key and model ID in app.py if using hosted detection
 - Streamlit: customize via .streamlit/config.toml (optional)
-- 
+  
 ## Troubleshooting
 If Streamlit won’t start on Windows:
 - Use the venv’s streamlit.exe: .\.venv\Scripts\streamlit.exe run app.py
