@@ -33,9 +33,6 @@ source .venv/bin/activate
 3) Install dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
-4) Run
-streamlit run app.py
-If port 8501 is busy, add: --server.port 8502
 
 ## How to use
 - Option A: Use the example image button
@@ -62,21 +59,6 @@ temp.png: transient file for processing uploads (ignored by Git)
 
 ## Configuration
 - Roboflow API: set API key and model ID in app.py if using hosted detection
-- Streamlit: customize via .streamlit/config.toml (optional)
-  
-## Troubleshooting
-If Streamlit won’t start on Windows:
-- Use the venv’s streamlit.exe: .\.venv\Scripts\streamlit.exe run app.py
-- Or standard: streamlit run app.py (after activating venv)
-If “No feasible path found”:
-- Reduce safety margin; adjust bone/artery sensitivity
-- Pick a more peripheral entry point
-- The planner now auto‑relaxes constraints; try again
-If simulation doesn’t move:
-- Ensure you planned a path first
-- Click Start Simulation; try FPS 20–30, Noise 0–2
-Large files warning on push:
-- Don’t commit .venv/ or binaries; the repo’s .gitignore helps
 
 ## Roadmap
 - 3D volume planning over DICOM series
